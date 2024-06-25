@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#313131;
+    margin: 0%;
+}
+div.MLGh1{
+    background-color: #0084FA;
+    color: #FFFFFFFF;
+    font-size: 110%;
+    height: 50px;
+    align-content: center;
+    margin: 0%;
+}   
+h1,title{
+    color:#FFFFFFFF;
+    font-family: Playfair Display;
+    margin-left: 15px;
+}
+p,li{
+    color: #FFFFFFFF;
+    font-family: Montserrat;
+    font-size: 100%;
+}
+#logoplareforme{
+    width: 20%;
+    height: 20%;
+    border: 0px;
+    background-color: #FFFFFFFF;
+    margin-left: 1.35%;
+    margin-top: 0.3%;
+    object-fit: auto;
+}
+div.imageloupe{
+    float: right;
+    width: 50%;
+    margin-top: 2%;
+
+}
+div.left-text{
+    width: 320px;
+    height: 50px;
+    margin-left: 2%;
+}
+div.second-text{
+    width: 90%;
+    margin-left: 0.5%;
+    margin-top: 15%;
+}
+

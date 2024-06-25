@@ -1,0 +1,44 @@
+#logoplateforme{
+    width:31%;
+    height:31%;
+    border: 0px;
+    background-color: none ;
+    margin-left: 1.85%;
+    margin-top: 0.3%;
+    object-fit: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.texte_alb {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+.texte2_alb {
+    font-size: 1.5em;
+    font-style: italic;
+}
+body {
+     background-color: #313131; 
+     color: white;
+}
+
+div {
+    background-color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

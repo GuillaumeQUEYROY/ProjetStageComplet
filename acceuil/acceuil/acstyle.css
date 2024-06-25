@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(270deg, #313131 0%, #0084fa 100%);
+    background-size: 400% 400%;
+    animation: fondfond 6s ease infinite;
+}
+a{
+    text-decoration: none;
+}
+@keyframes fondfond {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+
+header {
+    display: flex;
+    background: #ffffff;
+    padding: 2vh;
+    align-content: center;
+    box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99;
+    justify-content: space-around;
+}
+
+.logoaccueil {
+    height: 5vw;
+    width: 25vw;
+    margin-right: 2vw;
+    background-image: url(laplateforme-blue.png);
+    background-size: 100%;
+    min-height: 43px;
+    min-width: 217px;
+}
+
+.logoaccueil:hover {
+    background-image: url(laplateforme-red.png);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portail{
+    background: #ffffff;
+    margin: 20px 0;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 30px #ffffff, -7px -7px 30px #ffffff;
+    max-width: 194px;
+    max-height: 397px;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    margin-right: 6vw;
+    margin-bottom: 13vh;
+    width: 100%;
+    min-height: 397px;
+    min-width: 194px;
+    align-content: space-between;
+    align-content: center;
+}
+
+.portail:hover {
+    animation: anim 0.4s both ease;
+}
+
+.portail p::selection {
+    color: #e74a34;
+}
+
+@keyframes anim {
+    0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.25);
+      }
+}
+
+h1{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 1vw ;
+    margin-right: 1vw;
+    color: #0084fa;
+}
+
+h1 {
+    color: #0066ff;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.portail p {
+    margin-left: 1.5vw ;
+    margin-right: 1.5vw ;
+    font-family:"Quicksand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.yippie{
+    height: 10vh ;
+    width: 15vw ;
+    background-image: url(fakenews.png) ;
+    background-size: 5vh 15vw;
+    background-size: cover;
+    border-radius: 20px;
+    min-width: 194px;
+}
+
+.wahoo {
+    height: 10vh ;
+    width: 15vw ;
+    background-image: url(ia.png) ;
+    background-size: 5vh 15vw;
+    background-size: cover;
+    border-radius: 20px;
+    min-width: 194px;
+}
+
+.boing {
+    height: 10vh;
+    width: 15vw;
+    background-image: url(screenapercu.png) ;
+    background-size: 5vh 15vw;
+    background-size: cover;
+    border-radius: 20px;
+    min-width: 194px;
+}
+
+footer {
+    background: #313131;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99
+}
+
+@media (max-width: 768px) {
+    .portail{
+        flex-direction: column;
+        margin: 30vw;
+        align-content: center;
+        margin-right: 0;
+    }
+
+    .yippie {
+        padding-bottom: 110px;
+    }
+
+
+    .wahoo {
+        padding-bottom: 130px;
+    }
+
+    .boing {
+        padding-bottom: 72px;
+  }
+}

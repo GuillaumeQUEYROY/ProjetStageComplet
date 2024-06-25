@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background: #0084FA;
+    background: radial-gradient(circle, #0084FA 37%, #ffffff 100% ); 
+    color: #333;
+}
+
+header {
+    background: #ffffff;
+    padding: 15px;
+    box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0084FA;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    margin-top: 3%;
+    padding: 1% 2%;
+    border-radius: 3%;
+    
+}
+
+
+.miaou {
+    margin-top: 1%;
+}
+
+nav ul li img {
+    box-shadow: #6a8ec5;
+}
+
+nav ul li a:hover {
+    background: #ffffff;
+    color: #e74a34;
+}
+
+.logo {
+    height: 5vw;
+    width: 25vw;
+    margin-right: 2vw;
+    background-image: url('laplateforme-blue.png');
+    background-size: 100%;
+    min-height: 40px;
+    min-width: 204px;
+}
+
+.logo:hover {
+    height: 5vw;
+    width: 25vw;
+    background-size: 100%;
+    background-image: url('laplateforme-red.png');
+}
+
+/* nav ul a img {
+    height: 80%;
+    width: 80%; 
+    opacity: 0%;
+}
+
+nav ul a img:hover{
+    opacity: 40%;
+    background-image: url('laplateforme-red.png');
+    background: no-repeat; 
+    height: 80%;
+    width: 80%;
+} */
+
+p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99;
+    max-width: 950px;
+    margin-top: 5%;
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1, h2 {
+    color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    font-size: 45px;
+    text-shadow: 2px 4px 10px #003688, -2px -4px 10px #003b94 ;
+}
+
+footer {
+    background: #313131;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99
+}
+
+footer a {
+    color: #e74a34;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

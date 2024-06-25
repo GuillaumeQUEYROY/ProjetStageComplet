@@ -1,0 +1,232 @@
+/*Proprietes logo la plateforme/Properties of La Plateforme's Logo*/
+
+#logoplateforme {
+    width: 20vw;
+    height: 3.31vw;
+    border: 0px;
+    background-color: none;
+    margin-left: 6.35%;
+    margin-top: 1%;
+    object-fit: auto;
+}
+
+/* Police d'ecriture/Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+    
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+/*Arriere plan/Background*/
+
+body {
+    min-height: 100vh;
+    max-height: none;
+    background: #313131;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0.5% 0.45%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar {
+    margin-right: 50px;
+    display: flex;
+}
+
+/* Boutons */
+.navbar a {
+    position: relative;
+    font-size: 0.8vw;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    background: #0084FA;
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3vw;
+    background: #ffffff6b;
+    border-radius: 0.5vw;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+/* Icone Hamburger*/
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-toggle:checked + .menu-icon {
+    transform: rotate(90deg);
+}
+
+.menu-toggle:checked + .menu-icon::before {
+    content: "✕";
+}
+
+/* Responsive*/
+@media (max-width: 768px), screen and (orientation: portrait) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-toggle:checked + .menu-icon + .navbar {
+        display: flex;
+    }
+}
+
+/*Bande Bleue*/
+
+.bluebox {
+    
+    top: 15%;
+    left: 0;
+    width: 100vw;
+    height: 5vw;
+    padding: 0.5% 0.45%;
+    background: #0084FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.bluebox2 {
+    margin-top: 2.5vw;
+    position: center;
+    width: auto;
+    height: 6.5vw;
+    padding: 0.5% 0.45%;
+    background: #0084FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 98;
+}
+
+#IAfakenews {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2vw;
+    padding-left: 1.7vw;
+}
+div.MLGh1{
+    background-color: #0084FA;
+    color: #FFFFFFFF;
+    font-size: 2em;
+    height: 50px;
+    align-content: center;
+    margin: 0%;
+    font-family: normal;
+}   
+p,li{
+    color: #FFFFFFFF;
+    font-family: Montserrat;
+    font-size: 1.5em;
+}
+div.footer{
+    background-color: #FFFFFF;
+    font-size: 0.5em;
+    height: 100%;
+    margin:0%;
+    width: 100%;
+
+}
+/* Container for flexboxes */
+.section {
+    width: 30%;
+    float: left;
+    background-color: #0084FA;
+    margin:0%;
+    height: 5%;
+  }
+  
+  
+  .article {
+    float:right;
+    background-color: #FFFFFF;
+    color: black;
+    width: 70%;
+    margin:0%;
+    height: 15%;
+  }
+  .column {
+    float: left;
+    padding: 20px;
+    heinght: auto;
+  }  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  a:link
+  {
+      color:#FFFFFF;
+  }
+  
+  a:visited
+  {
+      color:#FFFFFF;
+  }
+  
+  a:hover 
+  {
+      color:#FFFFFF;
+  }
+  
