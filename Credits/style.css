@@ -1,18 +1,58 @@
 body{
-    background-color: #0084FA;
+    background: linear-gradient(90deg, #313131 50%, #0084fa 50%);
 }
+
+h1 {
+    color: #ffffff;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: auto;
+    text-shadow: 7px 7px 15px #00183d, -7px -7px 15px #001431;
+}
+
 #Contenu{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    flex-wrap: wrap;
 }
+
 #Image{
     background-color: white;
     width: 350px;
     height: 75px;
     border-radius: 25px;
 }
+
 .noms{
     background-color: white;
     border-radius: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3%;
 }
+
+h2, p {
+    margin: 5%;
+}
+
+h2 {
+    color: #0066ff;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family:"Quicksand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .contenu{
+        flex-direction: column;
+    }
+    
