@@ -7,7 +7,7 @@
 body {
     background: linear-gradient(270deg, #313131 0%, #0084fa 100%);
     background-size: 400% 400%;
-    animation: fondfond 6s ease infinite;
+    animation: fondfond 15s ease infinite;
 }
 a{
     text-decoration: none;
