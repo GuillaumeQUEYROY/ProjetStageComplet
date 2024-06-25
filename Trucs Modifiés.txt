@@ -1,0 +1,15 @@
+dossier accueil renommé en Accueil 
+	Accueil:
+	Fichier html renommé en index.html !
+	tout les images passés dans Assets/.
+	fichier css renommé style.css
+2eme dossier accueil supprimé!
+
+Dossier SiteWebMiaou renommé en Humain
+	Ajouts du Dossier Assets/ et transfère de toutes les images dedans
+	fichier css renommé style.css
+	fichier web.html renommé index.html
+
+IA:
+	Suppresion de la page 2 (inutilisé)
+	rename de toutes les pages pour combler le trou de la page 2
