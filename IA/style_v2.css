@@ -44,6 +44,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    width: auto;
 }
 
 .navbar {
@@ -140,6 +141,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    width: auto;
 }
 
 .bluebox2 {
@@ -171,6 +173,7 @@ div.MLGh1{
     color: white;
     font-size: 1.5vw;
     padding-left: 1.7vw;
+    width: auto;
 }   
 div.texte3 {
     margin-left: 1.5vw;
@@ -216,7 +219,6 @@ div.footer{
   .column {
     float: left;
     padding: 20px;
-    heinght: auto;
   }  
   .row:after {
     content: "";
