@@ -11,6 +11,7 @@ body {
     background: #0084FA;
     background: radial-gradient(circle, #0084FA 37%, #ffffff 100% ); 
     color: #333;
+    overflow-x: hidden;
 }
 
 header {
@@ -162,3 +163,6 @@ footer a {
     }
 }
 
+#EtoilesFooter{
+    text-wrap: nowrap;
+}
