@@ -167,3 +167,13 @@ footer {
         padding-bottom: 72px;
   }
 }
+.text_pres{
+    text-align: center;
+    color: #ffffff;
+    font-family:"Quicksand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
