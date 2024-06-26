@@ -107,7 +107,7 @@ h1 {
 
 .yippie{
     height: 10vh ;
-    width: 15vw ;
+    width: 100% ;
     background-image: url(fakenews.png) ;
     background-size: 5vh 15vw;
     background-size: cover;
@@ -118,7 +118,7 @@ h1 {
 
 .wahoo {
     height: 10vh ;
-    width: 15vw ;
+    width: 100% ;
     background-image: url(ia.png) ;
     background-size: 5vh 15vw;
     background-size: cover;
@@ -129,7 +129,7 @@ h1 {
 
 .boing {
     height: 10vh;
-    width: 15vw;
+    width: 100%;
     background-image: url(screenapercu.png) ;
     background-size: 5vh 15vw;
     background-size: cover;
