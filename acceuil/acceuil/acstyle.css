@@ -12,6 +12,12 @@ body {
 a{
     text-decoration: none;
 }
+.ImgP{
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+}
+
 @keyframes fondfond {
     0%{background-position:1% 0%}
     50%{background-position:99% 100%}
@@ -43,22 +49,18 @@ header {
 
 main {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .portail{
+    display: flex;
+    flex-direction: column;
     background: #ffffff;
-    margin: 20px 0;
-    padding-bottom: 30px;
     border-radius: 20px;
     box-shadow: 7px 7px 30px #ffffff, -7px -7px 30px #ffffff;
-    max-width: 194px;
-    margin-top: 15vh;
-    margin-left: 10vw;
-    margin-right: 6vw;
-    margin-bottom: 13vh;
-    width: 100%;
+    width: 15vw;
     min-height: 397px;
     min-width: 194px;
     align-content: space-between;
@@ -105,39 +107,6 @@ h1 {
     font-style: normal;
 }
 
-.yippie{
-    height: 10vh ;
-    width: 100% ;
-    background-image: url(fakenews.png) ;
-    background-size: 5vh 15vw;
-    background-size: cover;
-    border-radius: 20px;
-    min-width: 193px;
-    padding-top: 120px
-}
-
-.wahoo {
-    height: 10vh ;
-    width: 100% ;
-    background-image: url(ia.png) ;
-    background-size: 5vh 15vw;
-    background-size: cover;
-    border-radius: 20px;
-    min-width: 193px;
-    padding-top: 130px;
-}
-
-.boing {
-    height: 10vh;
-    width: 100%;
-    background-image: url(screenapercu.png) ;
-    background-size: 5vh 15vw;
-    background-size: cover;
-    border-radius: 20px;
-    min-width: 193px;
-    padding-top: 80px;
-}
-
 footer {
     background: #313131;
     height: 220px;
@@ -148,27 +117,6 @@ footer {
     box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99
 }
 
-@media (max-width: 768px) {
-    .portail{
-        flex-direction: column;
-        margin: 30vw;
-        align-content: center;
-        margin-right: 0;
-    }
-
-    .yippie {
-        padding-bottom: 110px;
-    }
-
-
-    .wahoo {
-        padding-bottom: 130px;
-    }
-
-    .boing {
-        padding-bottom: 75px;
-  }
-}
 .text_pres{
     text-align: center;
     color: #ffffff;
@@ -178,4 +126,16 @@ footer {
     margin-top: 3vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    padding-bottom: 75px;
 }
+@media (max-width: 768px) {
+    .portail{
+        margin: 50px;
+    }
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
