@@ -88,6 +88,7 @@ nav ul a img:hover{
 p {
     font-family: "Quicksand", sans-serif;
     font-style: normal;
+    margin: 15px;
 }
 
 main {
@@ -132,13 +133,32 @@ footer {
 footer a {
     color: #e74a34;
 }
-
+#SheinImage{
+    height: 75vh;
+    width: 45%;
+}
+#SheinTexte{
+    width: 50vw;
+    height: 100%;
+}
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
     }
-
+    #sheindiv{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #SheinTexte{
+        width: 100%;
+    }
+    #SheinImage{
+        height: 50vh;
+        width: 70vw;
+    }
     nav ul li {
         margin: 10px 0;
     }
 }
+
