@@ -54,7 +54,6 @@ main {
     border-radius: 20px;
     box-shadow: 7px 7px 30px #ffffff, -7px -7px 30px #ffffff;
     max-width: 194px;
-    max-height: 397px;
     margin-top: 15vh;
     margin-left: 10vw;
     margin-right: 6vw;
@@ -114,6 +113,7 @@ h1 {
     background-size: cover;
     border-radius: 20px;
     min-width: 193px;
+    padding-top: 120px
 }
 
 .wahoo {
@@ -124,6 +124,7 @@ h1 {
     background-size: cover;
     border-radius: 20px;
     min-width: 193px;
+    padding-top: 130px;
 }
 
 .boing {
