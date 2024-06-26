@@ -134,6 +134,7 @@ h1 {
     background-size: cover;
     border-radius: 20px;
     min-width: 193px;
+    padding-top: 80px;
 }
 
 footer {
