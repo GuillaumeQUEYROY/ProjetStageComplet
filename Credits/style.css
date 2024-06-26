@@ -1,5 +1,13 @@
 body{
     background: linear-gradient(90deg, #313131 50%, #0084fa 50%);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 7%;
+    min-height: 50px;
 }
 h1 {
     color: #ffffff;
@@ -10,19 +18,21 @@ h1 {
     font-size: auto;
     text-shadow: 7px 7px 15px #00183d, -7px -7px 15px #001431;
 }
-
+#Image{
+    background-color: white;
+    width: 40%;
+    min-width: 200px;
+    min-height: 50px;
+    height: 10%;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
 #Contenu{
     display: flex;
     justify-content: space-between;
     align-content: center;
     flex-wrap: nowrap;
-}
-
-#Image{
-    background-color: white;
-    width: 40vw;
-    height: 10vw;
-    border-radius: 25px;
 }
 
 .noms{
