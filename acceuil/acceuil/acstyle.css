@@ -113,7 +113,7 @@ h1 {
     background-size: 5vh 15vw;
     background-size: cover;
     border-radius: 20px;
-    min-width: 194px;
+    min-width: 193px;
 }
 
 .wahoo {
@@ -123,7 +123,7 @@ h1 {
     background-size: 5vh 15vw;
     background-size: cover;
     border-radius: 20px;
-    min-width: 194px;
+    min-width: 193px;
 }
 
 .boing {
@@ -133,7 +133,7 @@ h1 {
     background-size: 5vh 15vw;
     background-size: cover;
     border-radius: 20px;
-    min-width: 194px;
+    min-width: 193px;
 }
 
 footer {
@@ -164,7 +164,7 @@ footer {
     }
 
     .boing {
-        padding-bottom: 72px;
+        padding-bottom: 75px;
   }
 }
 .text_pres{
