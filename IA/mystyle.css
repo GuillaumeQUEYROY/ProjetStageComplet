@@ -12,6 +12,7 @@ div.MLGh1{
     height: 50px;
     align-content: center;
     margin: 0%;
+    width: auto;
 }   
 h1,title{
     color:#FFFFFFFF;
@@ -53,3 +54,6 @@ div.second-text{
     margin-top: 25%;
 }
 
+.ccsesmoi {
+    margin-bottom: 2.5vw;
+}
