@@ -131,6 +131,7 @@ footer {
 @media (max-width: 768px) {
     .portail{
         margin: 50px;
+        width: 30vw;
     }
     main{
         flex-direction: column;
