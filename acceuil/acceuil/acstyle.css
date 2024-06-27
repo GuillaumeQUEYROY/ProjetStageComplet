@@ -54,6 +54,7 @@ main {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 70px;
 }
 
 .portail{
