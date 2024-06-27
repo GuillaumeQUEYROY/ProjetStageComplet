@@ -116,6 +116,24 @@ body {
         margin: 10px 0;
         width: 100%;
         text-align: center;
+        position: relative;
+        font-size: 4vw;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+        background: #0084FA;
+        padding: 0.5vw;
+    }
+
+    .navbar a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 10vw;
+        background: #ffffff6b;
+        border-radius: 0.5vw;
     }
 
     .menu-icon {
