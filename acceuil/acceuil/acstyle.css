@@ -108,17 +108,6 @@ h1 {
     font-weight: 500;
     font-style: normal;
 }
-
-footer {
-    background: #313131;
-    height: 220px;
-    width: 100%;
-    text-align: center;
-    margin-top: 5%;
-    color: white;
-    box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99
-}
-
 .text_pres{
     text-align: center;
     color: #ffffff;
