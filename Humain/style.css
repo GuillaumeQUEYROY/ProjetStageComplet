@@ -63,7 +63,7 @@ nav ul li a:hover {
     height: 5vw;
     width: 25vw;
     margin-right: 2vw;
-    background-image: url('laplateforme-blue.png');
+    background-image: url('Assets/laplateforme-blue.png');
     background-size: 100%;
     min-height: 40px;
     min-width: 204px;
@@ -73,7 +73,7 @@ nav ul li a:hover {
     height: 5vw;
     width: 25vw;
     background-size: 100%;
-    background-image: url('laplateforme-red.png');
+    background-image: url('Assets/laplateforme-red.png');
 }
 p {
     font-family: "Quicksand", sans-serif;
