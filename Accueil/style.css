@@ -39,14 +39,14 @@ header {
     height: 5vw;
     width: 25vw;
     margin-right: 2vw;
-    background-image: url(laplateforme-blue.png);
+    background-image: url(Assets/laplateforme-blue.png);
     background-size: 100%;
     min-height: 43px;
     min-width: 217px;
 }
 
 .logoaccueil:hover {
-    background-image: url(laplateforme-red.png);
+    background-image: url(Assets/laplateforme-red.png);
 }
 
 main {
