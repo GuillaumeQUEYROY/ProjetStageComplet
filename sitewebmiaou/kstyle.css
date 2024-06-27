@@ -86,7 +86,6 @@ main {
     align-items: center;
     text-align: center;
 }
-
 section {
     background: #ffffff;
     margin: 20px 0;
@@ -138,6 +137,9 @@ footer a {
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+    header{
+        position: relative;
     }
     #SheinTexte{
         width: 100%;
