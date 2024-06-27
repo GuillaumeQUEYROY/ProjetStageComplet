@@ -16,7 +16,9 @@ body {
 
 header {
     background: #ffffff;
-    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
     box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99
 }
 
@@ -71,21 +73,6 @@ nav ul li a:hover {
     background-size: 100%;
     background-image: url('laplateforme-red.png');
 }
-
-/* nav ul a img {
-    height: 80%;
-    width: 80%; 
-    opacity: 0%;
-}
-
-nav ul a img:hover{
-    opacity: 40%;
-    background-image: url('laplateforme-red.png');
-    background: no-repeat; 
-    height: 80%;
-    width: 80%;
-} */
-
 p {
     font-family: "Quicksand", sans-serif;
     font-style: normal;
@@ -94,6 +81,7 @@ p {
 
 main {
     display: flex;
+    padding-top: 15px;
     flex-direction: column;
     align-items: center;
     text-align: center;

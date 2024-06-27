@@ -26,8 +26,10 @@ a{
 
 header {
     display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
     background: #ffffff;
-    padding: 2vh;
     align-content: center;
     box-shadow: 7px 7px 15px #013e99, -7px -7px 15px #013e99;
     justify-content: space-around;
@@ -127,6 +129,7 @@ footer {
     margin-left: 5vw;
     margin-right: 5vw;
     padding-bottom: 75px;
+    padding-top: 7vh;
 }
 @media (max-width: 768px) {
     .portail{
