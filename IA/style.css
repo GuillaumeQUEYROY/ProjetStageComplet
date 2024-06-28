@@ -1,17 +1,5 @@
 /*Proprietes logo la plateforme/Properties of La Plateforme's Logo*/
 
-#logoplateforme {
-    width: 20vw;
-    height: 3.31vw;
-    border: 0px;
-    background-color: none;
-    margin-left: 6.35%;
-    margin-top: 1%;
-    object-fit: auto;
-}
-
-/* Police d'ecriture/Font */
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -35,6 +23,16 @@ body {
 }
 
 /* Navbar */
+
+#logoplateforme {
+    width: 20vw;
+    height: 3.31vw;
+    border: 0px;
+    background-color: none;
+    margin-left: 6.35%;
+    margin-top: 1%;
+    object-fit: auto;
+}
 
 .header {
     position: fixed;
@@ -163,7 +161,11 @@ body {
     margin-top: 4.5vw;
     z-index: 99;
 }
-
+#Center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #IAfakenews {
     font-family: "Michroma", sans-serif;
     font-weight: 400;
@@ -238,9 +240,7 @@ body {
     font-style: italic;
     color: white;
     font-size: 1.5vw;
-    padding-left: 3vw;
     text-align: center;
-    margin-left: 15vw;
     text-align-last: left;
     word-spacing: 0.3vw;
 }
@@ -252,9 +252,7 @@ body {
     font-style: normal;
     color: white;
     font-size: 1.5vw;
-    padding-left: 3vw;
     text-align: center;
-    margin-left: 15vw;
     text-align-last: left;
     word-spacing: 0.3vw;
 }
@@ -266,9 +264,7 @@ body {
     font-style: normal;
     color: white;
     font-size: 1.5vw;
-    padding-left: 3vw;
     text-align: center;
-    margin-left: 15vw;
     text-align-last: left;
     word-spacing: 0.3vw;
 }
@@ -279,52 +275,24 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-left: 3vw;
-    margin-left: 27vw;
 }
 
 #femmeia {
     margin-left: 20vw;
 }
 
-#imagename1 {
-    margin-top: 0.2vw;
+#undertext {
+    margin-top: 1.5vw;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-style: normal;
+    font-style: italic;
     color: white;
-    font-size: 1.15vw;
-    padding-left: 0.3vw;
+    font-size: 1.2vw;
     text-align: center;
     text-align-last: left;
     word-spacing: 0.3vw;
-}
-
-#imagename2 {
-    margin-top: -1.5vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-    font-size: 1.15vw;
-    text-align: center;
-    word-spacing: 0.3vw;
-    padding-right: 5vw;
-}
-
-#undertext {
-margin-top: 1.5vw;
-font-family: "Montserrat", sans-serif;
-font-weight: 300;
-font-style: italic;
-color: white;
-font-size: 1.2vw;
-padding-left: 3.2vw;
-text-align: center;
-margin-left: 15vw;
-text-align-last: left;
-word-spacing: 0.3vw;
-margin-bottom: 7vw;
-}
+    margin-bottom: 7vw;
+    }
 
 /*Footer Info*/
 div.footer{
