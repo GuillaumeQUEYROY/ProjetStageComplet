@@ -15,9 +15,12 @@ header{
 main{
     padding-top: 45px;
 }
+#MobileImg{
+    display: none;
+}
 .ImgHumain{
     align-self: center;
-    width: 80%;
+    width: 30vw;
     border-radius: 5%;
 }
 h1 {
@@ -75,6 +78,13 @@ p {
 }
 
 @media (max-width: 768px) {
+    #MobileImg{
+        display: block;
+        width: 30vw;
+    }
+    #DesktopImg{
+        display: none;
+    }
     .contenu{
         flex-direction: column;
     }
