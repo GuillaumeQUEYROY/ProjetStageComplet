@@ -78,4 +78,10 @@ p {
     .contenu{
         flex-direction: column;
     }
+    Header{
+        height: 5vh;
+    }
+    #Image{
+        height: 5vh;
+    }
 }
