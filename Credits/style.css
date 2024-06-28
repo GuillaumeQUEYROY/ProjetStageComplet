@@ -57,6 +57,7 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     width: 40%;
+    height: 100%;
     margin: 3%;
 }
 
